@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-x-bg: #000000;
+  --color-x-hover: #16181c;
+  --color-x-border: #2f3336;
+  --color-x-text: #e7e9ea;
+  --color-x-muted: #71767b;
+  --color-x-blue: #1d9bf0;
+  --color-x-like: #f91880;
+  --color-x-repost: #00ba7c;
+  --color-x-white: #eff3f4;
+  --color-x-black: #0f1419;
+}
+
+body {
+  background: var(--color-x-bg);
+  color: var(--color-x-text);
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
